@@ -9,8 +9,8 @@ display: block !important;
 }
  */
   /* close and minimize buttons  */
-  .c-dxAZjf {
-    /* display: none !important; */
+/*   .c-dxAZjf { */
+.vfrc-header--button {
     pointer-events: none !important;
   }
 
