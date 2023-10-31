@@ -31,12 +31,12 @@ display: block !important;
     padding: 0 20% !important;
 }
 
-.c-ivtLaR > .c-PJLV,
-.c-ivtLaR > .c-fikloo {
+.vfrc-widget > .vfrc-widget--launcher,
+.vfrc-widget > .vfrc-widget--chat {
     position: inherit !important;
 }
 
-.c-ivtLaR > .c-PJLV{
+.vfrc-widget  > .vfrc-widget--launcher{
     display:none !important;
 }
 
@@ -48,13 +48,13 @@ display: block !important;
 }
 
 @media (max-width: 1680px) {
-    .c-ivtLaR {
+    .vfrc-widget {
         padding: 0 5% !important;
     }
 }
 
 @media (max-width: 600px) {
-    .c-ivtLaR {
+    .vfrc-widget {
         padding: 0 2% !important;
     }
     #voiceflow-chat {
