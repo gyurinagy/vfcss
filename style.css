@@ -24,20 +24,22 @@ display: block !important;
     width:100% !important;
     height: 75vh !important;
 }
-.c-ivtLaR {
-position: inherit !important;
-height: 100% !important;
-width:100% !important;
-padding: 0 20% !important;
+.vfrc-widget {
+    position: inherit !important;
+    height: 100% !important;
+    width:100% !important;
+    padding: 0 20% !important;
 }
+
 .c-ivtLaR > .c-PJLV,
 .c-ivtLaR > .c-fikloo {
-position: inherit !important;
+    position: inherit !important;
+}
 
-}
 .c-ivtLaR > .c-PJLV{
-display:none !important;
+    display:none !important;
 }
+
 .vfrc-widget--chat {
     width: 100% !important;
     height:100% !important;
@@ -46,16 +48,16 @@ display:none !important;
 }
 
 @media (max-width: 1680px) {
-.c-ivtLaR {
-padding: 0 5% !important;
-}
+    .c-ivtLaR {
+        padding: 0 5% !important;
+    }
 }
 
 @media (max-width: 600px) {
-.c-ivtLaR {
-padding: 0 2% !important;
-}
-#voiceflow-chat {
-height: 75vh !important;
-}
+    .c-ivtLaR {
+        padding: 0 2% !important;
+    }
+    #voiceflow-chat {
+        height: 75vh !important;
+    }
 }
