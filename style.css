@@ -21,3 +21,44 @@ display: block !important;
 
   /* today text */
   .c-bbTBUn {}
+
+
+#voiceflow-chat {
+width:100% !important;
+height: 75vh !important;
+}
+.c-ivtLaR {
+position: inherit !important;
+height: 100% !important;
+width:100% !important;
+padding: 0 20% !important;
+}
+.c-ivtLaR > .c-PJLV,
+.c-ivtLaR > .c-fikloo {
+position: inherit !important;
+
+}
+.c-ivtLaR > .c-PJLV{
+display:none !important;
+}
+.c-fikloo {
+width: 100% !important;
+height:100% !important;
+max-height: none !important;
+box-shadow: 0px 2px 60px 0px rgb(11 25 59);
+}
+
+@media (max-width: 1680px) {
+.c-ivtLaR {
+padding: 0 5% !important;
+}
+}
+
+@media (max-width: 600px) {
+.c-ivtLaR {
+padding: 0 2% !important;
+}
+#voiceflow-chat {
+height: 75vh !important;
+}
+}
