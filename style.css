@@ -89,9 +89,9 @@ display: block !important;
     border-color: #dce0e5 !important;
 }
 
-.vfrc-chat-inout--button,
+.vfrc-chat-input--button,
 .vfrc-chat {
-    background-color: #fff8 !important;
+    background-color: #b6b4c112 !important;
     color: rgb(201 196 196 / 90%) !important;
 }
 
