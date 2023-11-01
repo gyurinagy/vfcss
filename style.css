@@ -124,7 +124,7 @@ display: block !important;
     border: 1px solid rgba(255, 255, 255, 0.24) !important;
 }
 .vfrc-input {
-    border-right-style:none;
+    border-right-style:none !important;
 }
 
 .vfrc-bubble {
