@@ -108,7 +108,7 @@ display: block !important;
 
 /* Message input field */
 [class^="vfrc-chat-input"] {
-    background-color: #000 !important;
+    background-color: #0000 !important;
 }
 
 .vfrc-input,
