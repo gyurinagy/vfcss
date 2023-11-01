@@ -108,7 +108,7 @@ display: block !important;
 
 /* Message input field */
 [class^="vfrc-chat-input"] {
-    background-color: #0000 !important;
+    background-color: rgba(0,0,0,0) !important;
 }
 
 .vfrc-input,
@@ -116,6 +116,9 @@ display: block !important;
     background-color: #00000000 !important;
     color: rgba(255, 255, 255, 0.81) !important;
     border: 1px solid rgba(255, 255, 255, 0.24) !important;
+}
+.vfrc-input {
+    border-right-style:none;
 }
 
 .vfrc-bubble {
