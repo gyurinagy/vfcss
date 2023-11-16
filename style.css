@@ -75,7 +75,7 @@ display: block !important;
 .vfrc-message {
     color: rgba(255, 255, 255, 0.81) !important;
     backdrop-filter: blur(16px) saturate(179%) !important;
-/*     background-color: rgba(50, 65, 93, 0.54) !important; */
+    background-color: rgb(139 139 139 / 20%) !important ;
     border-radius: 12px !important;
     border: 1px solid rgba(255, 255, 255, 0.24) !important;
     max-width: 350px !important;
@@ -84,9 +84,8 @@ display: block !important;
 .vfrc-button--secondary {
 
     border: 1px solid #ffffff54 !important;
-    color: #c7cacd !important;
-    background-color: rgb(24 26 30 / 54%) !important;
-     !important;
+    color: #ffffffe0 !important;
+    background-color:  #0e7aed54 !important;
     box-shadow: 0 1px 2px var(--shadows-shadow2) !important;
     transition: border-color 150ms ease 0s !important;
 }
