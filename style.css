@@ -24,12 +24,12 @@ display: block !important;
 
 #voiceflow-chat {
     width: 100% !important;
-    height: 40vh !important;
+    height: 550px !important;
 }
 
-.vfrc-avatar {
+/* .vfrc-avatar {
     display:none !important;
-}
+} */
 
 .vfrc-widget {
     position: inherit !important;
