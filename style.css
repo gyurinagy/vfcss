@@ -23,7 +23,7 @@ display: block !important;
 
 #voiceflow-chat {
     width: 100% !important;
-    height: 75vh !important;
+    height: 40vh !important;
 }
 
 /* .vfrc-avatar {
@@ -50,12 +50,17 @@ display: block !important;
     width: 100% !important;
     height: 100% !important;
     max-height: none !important;
-    box-shadow: 0px 2px 60px 0px rgb(11 25 59) !important;
+/*     box-shadow: 0px 2px 60px 0px rgb(11 25 59) !important; */
     transition: border 0.25s ease-in, box-shadow 0.25s ease-in !important;
+        backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+/*     background-color: rgba(17, 25, 40, 0.6) !important; */
+    border-radius: 8px !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 .vfrc-widget--chat:hover {
-    border: 1px solid rgb(255 255 255 / 37%) !important;
-    box-shadow: 0px 2px 50px 0px rgb(6 15 35) !important;
+    border: 1px solid rgb(255 255 255 / 20%) !important;
+/*     box-shadow: 0px 2px 50px 0px rgb(6 15 35) !important; */
 }
 
 .vf-chat {
@@ -67,18 +72,10 @@ display: block !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.24) !important;
 }
 
-.vfrc-widget--chat {
-    backdrop-filter: blur(16px) saturate(180%) !important;
-    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
-    background-color: rgba(17, 25, 40, 0.6) !important;
-    border-radius: 12px !important;
-    border: 1px solid rgba(255, 255, 255, 0.3) !important;
-}
-
 .vfrc-message {
     color: rgba(255, 255, 255, 0.81) !important;
     backdrop-filter: blur(16px) saturate(179%) !important;
-    background-color: rgba(50, 65, 93, 0.54) !important;
+/*     background-color: rgba(50, 65, 93, 0.54) !important; */
     border-radius: 12px !important;
     border: 1px solid rgba(255, 255, 255, 0.24) !important;
     max-width: 350px !important;
@@ -162,6 +159,6 @@ border-left-width: 0px !important;
     }
 
     #voiceflow-chat {
-        height: 75vh !important;
+        height: 70vh !important;
     }
 }
