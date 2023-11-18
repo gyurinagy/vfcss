@@ -1,36 +1,9 @@
-.vfrc-system-response--actions {
-    display: block !important;
-}
-
-/* .c-fbSqOT {
-    display: block !important;
-  }
-.c-iBVlvN {
-display: block !important;
-}
- */
-
-/* close and minimize buttons  */
-/*   .c-dxAZjf { */
-.vfrc-header--button {
-    pointer-events: none !important;
-    display:none !important;
-}
-
-/* Murrow consulting title */
-.vfrc-assistant-info--title {
-    display: none !important;
-}
-
+/* Whole page Wrapper  */
 #voiceflow-chat {
     width: 100% !important;
     height: 550px !important;
 }
-
-header .vfrc-avatar {
-    display:none !important;
-}
-
+/* inside Whole page Wrapper  */
 .vfrc-widget {
     position: inherit !important;
     height: 100% !important;
@@ -43,15 +16,17 @@ header .vfrc-avatar {
     position: inherit !important;
 }
 
+/* Launcher Icon */
 .vfrc-widget>.vfrc-widget--launcher {
     display: none !important;
 }
 
+/* THE CHAT  */
 .vfrc-widget--chat {
     width: 100% !important;
     height: 100% !important;
     max-height: none !important;
-    box-shadow: 0px 2px 60px 0px rgba(11 25 59 0) !important;
+    box-shadow: 0px 2px 60px 0px rgb(19 33 68 / 0%) !important;
     transition: border 0.25s ease-in, box-shadow 0.25s ease-in !important;
     backdrop-filter: blur(16px) saturate(180%) !important;
     -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
@@ -63,16 +38,35 @@ header .vfrc-avatar {
     border: 1px solid rgb(255 255 255 / 20%) !important;
 /*     box-shadow: 0px 2px 50px 0px rgb(6 15 35) !important; */
 }
+.vfrc-chat {
+    background-color: #b6b4c112 !important;
+    color: rgb(201 196 196 / 90%) !important;
+}
 
-/* .vf-chat {
+
+/* Murrow consulting title */
+.vfrc-assistant-info--title {
+    display: none !important;
+}
+
+.vf-chat {
     background: none !important;
-} */
+}
 
+/* Chat Header */
 .vfrc-header {
     background: none !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.24) !important;
 }
+.vfrc-header .vfrc-avatar {
+    display:none !important;
+}
+.vfrc-header--button {
+    pointer-events: none !important;
+    display:none !important;
+}
 
+/* Response Message */
 .vfrc-message {
     color: rgba(255, 255, 255, 0.81) !important;
     backdrop-filter: blur(16px) saturate(179%) !important;
@@ -82,24 +76,23 @@ header .vfrc-avatar {
     max-width: 350px !important;
 }
 
+/* System Buttons Wrapper  */
+.vfrc-system-response--actions {
+    display: block !important;
+}
+/* THE BUTTONS  */
 .vfrc-button--secondary {
-
     border: 1px solid #ffffff54 !important;
     color: #ffffffe0 !important;
     background-color:  #0e7aed54 !important;
     box-shadow: 0 1px 2px var(--shadows-shadow2) !important;
     transition: border-color 150ms ease 0s !important;
 }
-
 .vfrc-button--secondary:hover {
     border-color: #dce0e5 !important;
 }
 
-.vfrc-chat-input--button,
-.vfrc-chat {
-    background-color: #b6b4c112 !important;
-    color: rgb(201 196 196 / 90%) !important;
-}
+
 
 ::-webkit-scrollbar {
     border-left: 1px solid #00000000 !important;
@@ -131,9 +124,13 @@ header .vfrc-avatar {
     border-bottom-right-radius: 0px !important;
 }
 .vfrc-chat-input--button {
-border-left-width: 0px !important;
+    border-left-width: 0px !important;
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
+}
+.vfrc-chat-input--button {
+    background-color: #b6b4c112 !important;
+    color: rgb(201 196 196 / 90%) !important;
 }
 
 .vfrc-bubble {
