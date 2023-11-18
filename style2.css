@@ -56,7 +56,7 @@
 /* Chat Header */
 .vfrc-header {
     background: none !important;
-    border-bottom: 1px solid #75757561 !important;
+    border-bottom: 1px dashed #75757561 !important;
 }
 .vfrc-header .vfrc-avatar {
     display:none !important;
@@ -73,7 +73,7 @@
     background-color: rgb(139 139 139 / 20%) !important ;
     border-radius: 12px !important;
     border: 1px solid rgba(255, 255, 255, 0.24) !important;
-    max-width: 350px !important;
+/*     max-width: 350px !important; */
 }
 
 /* System Buttons Wrapper  */
@@ -109,9 +109,8 @@
 /* [class^="vfrc-chat-input"] {
     background-color:  #00000000 !important;
 } */
-.vfrc-chat-input {
-    background-color:  #00000000 !important;
-}
+
+/* INPUT FIELD */
 .vfrc-input,
 .vfrc-chat-input--button {
     background-color: #00000000 !important;
@@ -127,10 +126,6 @@
     border-left-width: 0px !important;
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
-}
-.vfrc-chat-input--button {
-    background-color: #b6b4c112 !important;
-    color: rgb(201 196 196 / 90%) !important;
 }
 
 .vfrc-bubble {
