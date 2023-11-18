@@ -67,7 +67,7 @@
 } */
 
 /* Response Message */
-.vfrc-message {
+.vfrc-message, .vfrc-proactive-message {
     color: rgba(255, 255, 255, 0.81) !important;
     backdrop-filter: blur(16px) saturate(179%) !important;
     background-color: rgb(139 139 139 / 20%) !important ;
