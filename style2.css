@@ -16,7 +16,7 @@
     position: inherit !important;
 }
 .vfrc-launcher{
-        width: 121px;
+    width: 120px;
     height: 50px;
     border-radius: 10px;
     border: 1px solid wheat;
@@ -29,9 +29,9 @@
 
 /* THE CHAT  */
 .vfrc-widget--chat {
-/*     width: 100% !important; */
+    width: 500px !important;
 /*    height: 100% !important; */
-/*    max-height: none !important; */
+   max-height: 700px !important;
 /*     background-color: rgba(17, 25, 40, 0.6) !important; */
     box-shadow: 0px 2px 60px 0px rgb(19 33 68 / 0%) !important;
     transition: border 0.25s ease-in, box-shadow 0.25s ease-in !important;
@@ -73,10 +73,19 @@
 } */
 
 /* Response Message */
-.vfrc-message, .vfrc-proactive-message {
+.vfrc-message {
     color: rgba(255, 255, 255, 0.81) !important;
     backdrop-filter: blur(16px) saturate(179%) !important;
     background-color: rgb(139 139 139 / 20%) !important ;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.24) !important;
+/*     max-width: 350px !important; */
+}
+/* Proactive Message */
+.vfrc-proactive-message {
+    color: rgba(255, 255, 255, 0.81) !important;
+    backdrop-filter: blur(38px) saturate(179%) !important;
+    background-color: ##19191994 !important ;
     border-radius: 12px !important;
     border: 1px solid rgba(255, 255, 255, 0.24) !important;
 /*     max-width: 350px !important; */
@@ -145,18 +154,26 @@
     background-color: #00000000 !important;
 }
 
-@media (max-width: 1680px) {
+/* @media (max-width: 1680px) {
     .vfrc-widget {
         padding: 0 10% !important;
     }
+} */
+@media (max-width: 768px){
+    .vfrc-widget--chat {
+        width: unset;
+        max-height:unset;
+    }
 }
-
 @media (max-width: 600px) {
-    .vfrc-widget {
+/*     .vfrc-widget {
         padding: 0 2% !important;
+    } */
+    .vfrc-launcher{
+    width: 80px;
     }
 
-    #voiceflow-chat {
+/*     #voiceflow-chat {
         height: 70vh !important;
-    }
+    } */
 }
