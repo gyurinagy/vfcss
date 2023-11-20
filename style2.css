@@ -85,7 +85,7 @@
 .vfrc-proactive-message {
     color: rgba(255, 255, 255, 0.81) !important;
     backdrop-filter: blur(38px) saturate(179%) !important;
-    background-color: ##19191994 !important ;
+    background-color: #19191994 !important ;
     border-radius: 12px !important;
     border: 1px solid rgba(255, 255, 255, 0.24) !important;
 /*     max-width: 350px !important; */
