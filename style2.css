@@ -164,16 +164,17 @@
         width: unset !important;
         max-height: unset!important;
     }
-}
-@media (max-width: 600px) {
-/*     .vfrc-widget {
-        padding: 0 2% !important;
-    } */
     .vfrc-launcher{
         width: 80px !important;
     }
+}
+/* @media (max-width: 600px) {
+/*     .vfrc-widget {
+        padding: 0 2% !important;
+    } */
+    
 
 /*     #voiceflow-chat {
         height: 70vh !important;
     } */
-}
+} */
