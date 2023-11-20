@@ -162,7 +162,12 @@
 @media (max-width: 768px){
     .vfrc-widget--chat {
         width: unset !important;
-        max-height: unset!important;
+        max-height: unset !important;
+        inset: 0px !important;
+        top: 0px !important;
+        right: 0px !important;
+        bottom: 0px !important;
+        left: 0px !important;
     }
     .vfrc-launcher{
         width: 80px !important;
