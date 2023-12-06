@@ -176,8 +176,14 @@
 }
 @media (max-width: 500px){
 .vfrc-message {
- max-width: 300px !important;
-    
+ max-width: 350px !important;
+
+}
+    .vfrc-avatar {
+        display:none !important;
+    }
+    .vfrc-system-response--actions {
+    padding-left: 20px !important;
 }
 }
 /* @media (max-width: 600px) {*/ 
